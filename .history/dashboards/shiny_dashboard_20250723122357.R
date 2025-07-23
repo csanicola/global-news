@@ -11,7 +11,7 @@ ui <- dashboardPage(
         selectInput("country", "Select Country:", 
                    choices = c("All", "US", "GB", "IN", "CN", "BR")),
         dateRangeInput("dates", "Date Range:", start = Sys.Date() - 30)
-    ),
+    )),
     dashboardBody(
         fluidRow(
             box(plotlyOutput("sentiment_trend"), width = 12
@@ -21,7 +21,7 @@ ui <- dashboardPage(
             box(plotlyOutput("topic_bubbles"), width = 6
         )
     )
-)))
+))
 
 server <- function(input, output) {
     con <- dbConnect(RPostgres::Postgres(),

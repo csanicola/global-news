@@ -8,7 +8,6 @@ library(dotenv)
 
 # Load environment variables
 load_dot_env("D:/GitHub/global-news/config/.env")
-# TODO: getting an error here: incomplete final line found on 'D:/GitHub/global-news/config/.env'
 
 # Connect to PostgreSQL with explicit password
 con <- dbConnect(

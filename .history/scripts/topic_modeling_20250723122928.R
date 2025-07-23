@@ -8,7 +8,6 @@ library(dotenv)
 
 # Load environment variables
 load_dot_env("D:/GitHub/global-news/config/.env")
-# TODO: getting an error here: incomplete final line found on 'D:/GitHub/global-news/config/.env'
 
 # Connect to PostgreSQL with explicit password
 con <- dbConnect(
@@ -33,7 +32,7 @@ tryCatch({
     SELECT id, title, content, sentiment_label, country 
     FROM news 
     WHERE content IS NOT NULL
-    LIMIT 1000  -- Process in batches
+    LIMIT 1000  # Process in batches
   ")
   
   # Preprocess text
