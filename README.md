@@ -59,7 +59,7 @@ world-event-tracker/
 1. **Clone the repo:**
 
 ```bash
-git clone https://github.com/csanicola/global-news.git
+git clone https://github.com/csanicola.git
 cd global-news
 ```
 
@@ -122,50 +122,3 @@ streamlit run dashboards/streamlit_app.py
   - Load environment variables
   - load_dot_env("D:/GitHub/global-news/config/.env")
   - TODO: getting an error here: incomplete final line found on 'D:/GitHub/global-news/config/.env'
-
----
-
-## 🪵 Obsidian Daily Tracker Template
-
-Create a template file like `World Event Tracker Daily.md` in your Obsidian vault’s templates folder.
-
-# 🌍 World Event Tracker -}
-
-## 📰 Headlines Collected
-
-- [ ] Source(s): NewsAPI / RSS / Reddit / Other
-
-- Total headlines:
-- Top sources today:
-
-## 📊 Sentiment Overview
-
-- Average sentiment score:
-- Sentiment distribution:
-  - Positive:
-  - Neutral:
-  - Negative:
-
-## 🧠 Topic Modeling Results
-
-- Top 5 topics:
-  1.
-  2.
-  3.
-  4.
-  5.
-- Emerging keywords:
-
-## 📈 Visualizations Generated
-
-- [ ] Sentiment trend graph
-- [ ] Word cloud
-- [ ] Topic chart
-
-## 🔍 Observations & Insights
-
-- What was surprising?
-- Any major events or mood shifts?
-- What needs follow-up?
-
-## 🛠️ Errors / Bugs / To-Do
